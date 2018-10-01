@@ -1,5 +1,0 @@
-#+INCLUDE: "macros.org"
-#+TITLE: {{{SITETITLE}}}
-{{{NAVBAR}}}
-{{{PAGETITLE(Publications)}}}
-#+INCLUDE: "~/Dropbox/cv/publications.org" :lines "15-"
