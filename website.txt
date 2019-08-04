@@ -1,0 +1,72 @@
+about me  -
+
+Exploring Artificial Intelligenace world. I have always been very fascinated with the interdisciplinary scientific field of computer vision. Deep Learning entered into my carrer in form of an internship opportunity. Then there was no looking back. Medical Imaging, Autonomous Vehicles and huge possibilities in AgriTech excites me the most about. 
+
+I am currently exploring one of the of biggest challenge of Deep Learning, challenge of making things quick. As part of ThinCI, I am working on reducing the FLOPs and memory uses in order to optimize inferencing. Unfortunately after so much exploitation of this field, it still takes days to get results in deep learning. Accelerating the convergance of a model is also something, I am actively working on. 
+
+Being part of previous startup, I worked on ADAS (Advance Driver Assistive System) which features FCW(Forward Collision Warning), LDW(Lane Departure warning), BSD(Blind Spot Detection). I spent most of my time exploring the most talked problem of Object Detection and Object Tracking followed by Depth Estimation. It is really fascinating to see the way transportation industry is changing the way it works. A lot of fleets, automobile and insurance companies is eagerly looking at automation industry. 
+
+Well Versed in deep leaning framework like pytorch, ONNX, Tensorflow, CUDA.  Proficient in programming using libraries like OpenCV, skimage, numpy, using C, C++ and Python language
+
+
+Skills - 
+
+Programming Language   - C, C++, Python
+Deep Learing Framework - PyTorch, ONNX, CUDA
+Computer Vision Library- OpenCV
+Linear Algebra Library - Eigen
+Tools anf platform     - Linux, ROS,
+Embedded Boards        - NVIDIA Jetson TX1
+
+Study - Btech from IIT Jodhpur 
+
+Experience -  
+
+1. TheHitechRoboticSystemz Ltd
+
+from May 2017 to Jan 2019
+
+2. ThinCI Semiconductors Pvt Ltd
+
+from Feb 2019 till Today
+
+3. Internship with TCS Research and Development
+
+
+Project 1 
+
+MultiObjectTracking 
+
+Project 2 
+
+Object Detection and postProcessing     
+
+Project 3 
+
+Unsupervised Monocular Depth Estimation 
+
+Project 4 
+
+Low rank approximation of CNNs
+
+images - relative comparision and 3d to 1d separable blocks 
+
+Project 5 
+
+ONNX to Pytorch Generator
+
+Project 6
+
+Faster Convergance of CNNs
+
+Project 7 
+
+Automatic License Plate Recognition 
+
+Project 8 
+
+Eye Blink Detection
+
+Contact Details - 
+mailID - abhiagwl4262@gmail.com
+address - Hyderabad, Telangana, PinCode-500032
