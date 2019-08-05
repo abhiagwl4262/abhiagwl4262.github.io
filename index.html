@@ -175,7 +175,7 @@ Well Versed in deep leaning framework like pytorch, ONNX, Tensorflow, CUDA.  Pro
                         <p>
                             <!--For a successful pick of object using a suction based gripper requires a robust estimation of position(touch point for suction) and direction of approach for the robot.-->
  
-			This Projects Implements the realtime multiple object tracking for the driving scene. In order to predict the behaviour of any object, motion cues are generated with tracking algorithm. This algorithm is of great importance for traffic survillance.
+			This Projects Implements the realtime multiple object tracking for the driving scene. In order to predict the behaviour of any object, motion cues are generated with tracking algorithm. This algorithm is of great importance for traffic survillance too.
                         </p>
                         <a href="https://abhiagwl4262.github.io/pages/Multi Object Tracking.html" target="_blank">View Project</a>
                     </div>
@@ -215,18 +215,7 @@ Well Versed in deep leaning framework like pytorch, ONNX, Tensorflow, CUDA.  Pro
                     <div class="project-info">
                         <h3>Unsupervised Monocular Depth Estimation</h3>
                         <p>
-                            This project implements the motion planning 
-for robotic manipulators mounted with two finger gripper or suction 
-based grasping system. Implementation of motion planning using MoveIt as
- planning library is done with stage wise improvements. At first in 
-Amazon picking challenge 2016, motion plan for default orientations 
-based on the object's location wrt the bins walls is implemented. Motion
- planning is improved to pick objects using a gripper with objects 
-placed at any orientation in a rack. Further improvisation is achieved 
-to pick an item placed with any orientation at any corner of a bin using
- suction. Collision avoidance was implemented using collision plates for
- storage rack walls and Octomaps for collision avoidance with nearby 
-non-target items.
+                            This project acts in the direction of generating disparity map in unsupervised manner. In order to make this algorithm work, we don't need any groundtruth e.g. 3d point cloud, disparity map. 
                         </p>
                         <a href="https://abhiagwl4262.github.io/pages/Stereo Disparity.html" target="_blank">View Project</a>                        
                     </div>
@@ -243,11 +232,7 @@ non-target items.
                     <div class="project-info">
                         <h3>Low rank approximation of CNNs</h3>
                         <p>
-			This project deals with the calibration (estimation of 
-transformation) between the 3D sensor and fixed robot reference frame. 
-3D points are collected wrt to the 3D sensor frame and wrt fixed robot 
-reference frame. The transformation between the two sets of points is 
-computed using SVD.
+							This project deals with the distilling of Convolution Neural Networks. We change the topology of the network in such fashion that we get almost same performace with reduction of FLOPs upto 0.5times. The distilled model would be faster and memory efficient too.
                         </p>
                         <a href="https://abhiagwl4262.github.io/pages/LRA_model.html" target="_blank">View Project</a>
                         <!-- a href="#">View Project</a -->
@@ -265,10 +250,7 @@ computed using SVD.
                     <div class="project-info">
                         <h3>ONNX to Pytorch Generator</h3>
                         <p>
-			To estimate the object's location wrt the walls of bins in a storage 
-rack it is necessary to know the corners of the every bin in the rack. 
-The algorithm recognizes the grid pattern in the rack and computes the 
-bin corners for all the bins.
+							This project is about transforming the given model into low rank space mode. The tool to automate the process of Low rank model creation using the defined guidelines followed by well conditioning and quantization of the given model. We feed trained CNN model in ONNX format along with the data and training parameters as inputand then this tool makes the necessary changes and generates the converted low rank optimized PyTorch model . 
                         </p>
                         <!--a href="#">View Project</a-->
                     </div>
@@ -284,20 +266,9 @@ bin corners for all the bins.
                     <div class="project-info">
                         <h3>Faster Convergance of CNNs</h3>
                         <p>
-			This project implements an algorithm for computing the grasp position
- on novel objects without any prior information of the objects. The 
-algorithm collects the 3D scan of an object, randomly selects the seed 
-points from the 3D scan. For each seed point a nearest neighbour search 
-is performed to collect all the points that are within a sphere having 
-diameter equal to the opening width of the gripper of the robot. Surface
- fitting is performed using the points around the seed points, the 
-surfaces having radius of curvature less than half the width of gripper 
-is chosen as a candidate grasp position. After surface fitting and 
-selection of candidate grasps for all the seed points, the candidate 
-grasps are filtered for obtaining the grasping position that is closer 
-to the central position of the target object 
+			This project aims towards reducing the training time for any deep neural network. We explore the method so that neural networks can be trained an order of magnitude faster than with standard training methods. A primary insight that allows super-convergence training is that large learning rates regularize the training.
                         </p>
-                        <a href="https://youtu.be/g2B7S7s61vo" target="_blank">View Video</a>
+                        <!-- <a href="https://youtu.be/g2B7S7s61vo" target="_blank">View Video</a> -->
                     </div>
                     <!-- End .project-info -->
                 </div>
