@@ -49,6 +49,8 @@ Project 4
 
 Low rank approximation of CNNs
 
+The proposed optimization technique has been tested on a wide set of classifiers and detectors. The accuracy and number of parameters of original 3D classifier model and corresponding optimized Low Rank model have been compared in Table 1. Comparison of detectors has been shown in Table 2.
+
 images - relative comparision and 3d to 1d separable blocks 
 
 Project 5 
