@@ -89,9 +89,9 @@
                         <!-- <li class="date">date:<a href="#">March 31, 2017</a></li> -->
                       </ul>
                     </div>
-                    <p class="mb-30">Obstacles in the environment needs 
-to be tracked over the consequetive frames. Tracking the obstacles is of
- great importance as it helps to generate a model of the motion of the 
+                    <p class="mb-30">Object tracking in a moving environment is used to collect 
+                      temporal-spatial information and trajectory of Obstacles Tracking the obstacles 
+                      is of great importance as it helps to generate a motion model of the  
 vehicle. This motion model thus obtained can be used to make inferences 
 like Time-To-Collision (TTC) of the vehicle. Hence, is of great utility 
 for ADAS solutions. </p>
@@ -103,13 +103,13 @@ tackle this blockade by achieving a very high rate, while retaining high
  accuracy. Thus making it a viable solution in real time ADAS 
 applications</blockquote>
                     <p class="mb-30">The solution makes use of motion 
-and visual queue to associate the obstacle in different frames. The 
-motion queue is obtained by using Kalman Filter. The motion model of the
+and visual cues to associate the obstacle in different frames. The 
+motion cue is modeled by using Kalman Filter. The motion model of the
  obstacle is developed by observing the vehicle over multiple frames and
  this motion model is then used to predict the position of the obstacle 
-and the associated variance in the next frame. Thereafter, the distance 
-of the previously observed obstacles from the detections obtained in the
- current frame is computed. The visual queue is obtained by computing 
+and the associated variance in motion cues in the next frame. Thereafter, 
+the distance of the previously observed obstacles from the detections obtained in the
+ current frame is computed. The visual cues are obtained by computing 
 distance over the histogram of the custom features obtained from the 
 bounding box. The custom features are designed to make efficient use of 
 memory coalescing over CUDA devices. The bounding boxes generated using 
@@ -117,19 +117,20 @@ object detection models have irrelevant information, especially around
 the edges. This is tackled by making use of a weight function and then 
 computing the weighted histogram over the features obtained.</p>
                     <p class="mb-30">Once we have the distances using 
-motion and visual queue between the previously observed obstacles and 
+motion and visual cues between the previously observed obstacles and 
 the current detections, the two scores are combined to generate the 
 association cost between each of the detections and the previosly 
 detected obstacles. This association cost needs to minimized. A 
 bipartite graph solving algorithm which minimizes cost can then be used 
 to obtain a one-to-one matching.</p>
-                    <p class="mb-30">The current implementation is 
-highly optimized algorithmically and also makes use of SIMD instructions
- and efficient CUDA programming to make it real time, while retaining 
-the accuracy. The average running time is around 10 milliseconds for a 
+                    <blockquote>The average running time of this algorithm is about 10 milliseconds for a 
 640x480 resolution image on a Tegra TX2 system. The CPU utilization is 
 also very low at 18%. Hence, making it a viable for use in ADAS 
-applications.  </p>
+applications.</blockquote>
+                    <p class="mb-30">The current implementation is 
+highly optimized algorithmically and also makes use of efficient CUDA 
+programming to make it real time, while retaining 
+the accuracy. </p>
                   </div>
                 </div>
               </div>
